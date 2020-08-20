@@ -3,7 +3,7 @@ const bot = new Discord.Client();
 const config = require('./config.json');
 const ytdl = require('ytdl-core');
 const streamOptions = {seek: 0, volume: 0.3};
-
+git 
 bot.login(config.token);
 
 bot.on('ready', ()=> {
